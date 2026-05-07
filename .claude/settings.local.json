@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npx next *)",
+      "Bash(node -e \"const {Instagram, Facebook, Globe, Twitter} = require\\('lucide-react'\\); console.log\\('Instagram:', !!Instagram, 'Facebook:', !!Facebook, 'Globe:', !!Globe\\)\")",
+      "Bash(node -e \"const icons = require\\('lucide-react'\\); const social = Object.keys\\(icons\\).filter\\(k => k.toLowerCase\\(\\).includes\\('social'\\) || k.toLowerCase\\(\\).includes\\('share'\\) || k.toLowerCase\\(\\).includes\\('globe'\\) || k === 'Link2' || k === 'ExternalLink'\\); console.log\\(social.slice\\(0,15\\)\\)\")"
+    ]
+  }
+}

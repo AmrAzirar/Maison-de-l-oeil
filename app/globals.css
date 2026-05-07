@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1A1A1A;
+  --gold: #C9A227;
+  --gold-dark: #b08d20;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-gold: var(--gold);
+  --color-gold-dark: var(--gold-dark);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-playfair);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
